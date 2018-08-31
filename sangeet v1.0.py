@@ -18,9 +18,10 @@ nextImage = PhotoImage(file="skip.png")
 stopImage = PhotoImage(file="stop.png")
 exitImage = PhotoImage(file="exit.png")
 
-#browseFunction
 song_list = []
 i = 0
+
+#browseFunction
 def browse():
     pygame.mixer.init()
     directory = askdirectory()
